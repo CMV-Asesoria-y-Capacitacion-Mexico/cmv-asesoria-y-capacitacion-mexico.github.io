@@ -27,26 +27,7 @@ body {
     padding: 0 20px;
 }
 
-/* --- WhatsApp flotante --- */
-.whatsapp-float {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    width: 60px;
-    height: 60px;
-    background: #25d366;
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    text-decoration: none;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    z-index: 1000;
-    transition: transform 0.3s ease;
-}
-.whatsapp-float:hover { transform: scale(1.1); }
+
 
 /* --- Header --- */
 header {
@@ -297,7 +278,10 @@ h2::after {
     margin-bottom: 8px;
     font-size: 18px;
 }
-
+.pdf-section {
+    background: white;
+    text-align: center;
+}
 /* --- Nosotros --- */
 .about-section {
     background: white;
@@ -335,7 +319,26 @@ h2::after {
     margin-bottom: 12px;
     font-weight: 500;
 }
+.motivational-full-img {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    display: block;
+    margin: auto;
+}
 
+.motivational-section {
+    background: linear-gradient(135deg, #0b2f4f, #1e3a5f);
+    padding: 80px 20px;
+}
+.motivational-full-img {
+    transition: transform 0.4s ease;
+}
+
+.motivational-full-img:hover {
+    transform: scale(1.03);
+}
 /* --- Clientes --- */
 .clients-section {
     background: var(--light);
