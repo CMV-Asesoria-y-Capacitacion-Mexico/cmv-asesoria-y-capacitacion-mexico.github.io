@@ -1,4 +1,4 @@
 # robots.txt para CMV Asesoría y Capacitación México
 User-agent: *
 Allow: /
-Sitemap: https://cmv-asesoria-y-capacitacion-mexico.github.io/CMV-ASESORIA-MEXICO/sitemap.xml
+
